@@ -1,15 +1,15 @@
 var people = [
   {
-    name: 'Dev',
-    githubUsername: 'devjanaprime'
+    name: 'Billy',
+    githubUsername: 'WSalinas315'
   },
   {
-    name: 'Dane',
-    githubUsername: 'DoctorHowser'
+    name: 'Kelsey',
+    githubUsername: 'kelseypeterson1'
   },
   {
-    name: 'Matt',
-    githubUsername: 'matthew-black'
+    name: 'Brett',
+    githubUsername: 'brg078'
   },
   {
     name: 'Kris',
