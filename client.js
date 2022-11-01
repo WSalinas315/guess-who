@@ -43,6 +43,12 @@ function startGame(){
 // Function to verify if a click is on the correct image
 function guessCheck(){
     console.log('In guessCheck function');
-
-
+    if(this.parentElement.id == people[index].name){
+        console.log('CORRECT! Try guessing another one.');
+        $('#name-prompt').empty();
+        startGame();
+        return;
+    } else{
+        console.log(`Sorry, that's not the right person. Try finding ${people[index].name} again.`);
+    }
 }
